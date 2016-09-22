@@ -38,3 +38,8 @@ Affected versions
 
 Please email me at zoobab AT gmaildotcom with the docker version you run if you
 are able to reproduce it.
+
+Links
+=====
+
+* Docker Daemon OOM Crash -- [Reproducible via docker run] #9799: https://github.com/docker/docker/issues/9799
