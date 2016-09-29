@@ -40,8 +40,28 @@ Please email me at zoobab AT gmaildotcom with the docker version you run if you
 are able to reproduce it.
 
 * 1.9.1 (coreos)
-* 1.11 (sabayon-gentoo):
+* 1.10 (coreos)
+```
+$ docker  version
+Client:
+ Version:      1.10.3
+ API version:  1.22
+ Go version:   go1.5.3
+ Git commit:   8acee1b
+ Built:        
+ OS/Arch:      linux/amd64
 
+Server:
+ Version:      1.10.3
+ API version:  1.22
+ Go version:   go1.5.3
+ Git commit:   8acee1b
+ Built:        
+ OS/Arch:      linux/amd64
+
+```
+
+* 1.11 (sabayon-gentoo):
 ```
 $ docker version
 Client:
@@ -63,7 +83,6 @@ Server:
 ```
 
 * 1.12.1 (coreos) (booted from https://github.com/coreos/coreos-vagrant.git commit 19af1c3355bbb4bf64b14614ddd2822983049d36) :
-
 ```
 ore@core-01 ~ $ docker version
 Client:
