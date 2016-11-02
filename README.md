@@ -84,7 +84,7 @@ Server:
 
 * 1.12.1 (coreos) (booted from https://github.com/coreos/coreos-vagrant.git commit 19af1c3355bbb4bf64b14614ddd2822983049d36) :
 ```
-ore@core-01 ~ $ docker version
+core@core-01 ~ $ docker version
 Client:
  Version:      1.12.1
  API version:  1.24
@@ -102,8 +102,21 @@ Server:
  OS/Arch:      linux/amd64
 ```
 
+* 1.12.3 (ubuntu):
+```
+$ docker version
+Client:
+ Version:      1.12.3
+ API version:  1.24
+ Go version:   go1.6.3
+ Git commit:   6b644ec
+ Built:        Wed Oct 26 21:44:32 2016
+ OS/Arch:      linux/amd64
+```
+
 Links
 =====
 
 * Docker Daemon OOM Crash -- [Reproducible via docker run] #9799: https://github.com/docker/docker/issues/9799
 * memory leak in buffer grow #9139 https://github.com/docker/docker/issues/9139
+* Possible fix in master branch: https://github.com/docker/docker/pull/22982
