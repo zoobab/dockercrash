@@ -33,6 +33,33 @@ kernel when I had swap activated. When swap was not activated, I could not SSH
 to the box anymore (SSH has some weird behaviour when a machine is fully
 loaded).
 
+Fixed version
+=============
+
+I quickly tested the latest release Docker version (1.13.0-rc1) on Ubuntu
+16.04.1, and the issue seems to be fixed:
+
+```
+$ docker version
+Client:
+ Version:      1.13.0-rc1
+ API version:  1.25
+ Go version:   go1.7.3
+ Git commit:   75fd88b
+ Built:        Fri Nov 11 19:47:07 2016
+ OS/Arch:      linux/amd64
+
+Server:
+ Version:             1.13.0-rc1
+ API version:         1.25
+ Minimum API version: 1.12
+ Go version:          go1.7.3
+ Git commit:          75fd88b
+ Built:               Fri Nov 11 19:47:07 2016
+ OS/Arch:             linux/amd64
+ Experimental:        false
+```
+
 Affected versions
 =================
 
